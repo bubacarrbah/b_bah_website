@@ -483,10 +483,17 @@ body.active { overflow: hidden; }
 
 .navbar-link:is(:hover, :focus)::before { width: 100%; }
 
+@media (min-width: 768px) {
+  .hero-banner-md{
+    width: 768px;
+  } 
+}
 
-
-
-
+@media (min-width: 500px) {
+  .hero-banner-sm{
+    width: 500px;
+  }
+}
 /*-----------------------------------*\
  * #HERO
 \*-----------------------------------*/
